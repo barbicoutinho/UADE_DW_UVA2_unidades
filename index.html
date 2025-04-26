@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cantina Chichilo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #FFF5E1;
+      color: #2F2F2F;
+      margin: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+      color: #8B0000;
+    }
+
+    nav {
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    h2 {
+      color: #8B0000;
+      border-bottom: 2px solid #f2f2f2;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      border: 1px solid #aaa;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .galeria img {
+      width: 250px;
+      border-radius: 8px;
+      box-shadow: 0px 0px 6px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Cantina Chichilo</h1>
+      <nav>
+        <a href="#inicio">Inicio</a> |
+        <a href="#menu">Menú</a> |
+        <a href="#galeria">Galería</a> |
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <section id="inicio">
+      <h2>Bienvenidos</h2>
+      <p>Desde 1956, Cantina Chichilo ofrece auténtica comida porteña en un ambiente familiar y cálido. ¡Los esperamos!</p>
+    </section>
+
+    <section id="menu">
+      <h2>Platos Destacados</h2>
+      <table>
+        <tr>
+          <th>Plato</th>
+          <th>Descripción</th>
+          <th>Precio</th>
+        </tr>
+        <tr>
+          <td>Milanesa Napolitana</td>
+          <td>Con papas fritas y huevo</td>
+          <td>$4500</td>
+        </tr>
+        <tr>
+          <td>Ravioles caseros</td>
+          <td>Con estofado de carne</td>
+          <td>$4200</td>
+        </tr>
+        <tr>
+          <td>Matambre a la pizza</td>
+          <td>Con papas al horno</td>
+          <td>$4800</td>
+        </tr>
+        <tr>
+          <td>Tallarines con tuco y albóndigas</td>
+          <td>Pasta casera con salsa y albóndigas</td>
+          <td>$4300</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="galeria">
+      <h2>Galería</h2>
+      <div class="galeria">
+        <img src="milanesa.jpg" alt="Milanesa Napolitana">
+        <img src="ravioles.jpg" alt="Ravioles con estofado">
+        <img src="matambre.jpg" alt="Matambre a la pizza">
+        <img src="tallarines.jpg" alt="Tallarines con albóndigas">
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p><strong>Dirección:</strong> Camarones 1901, CABA</p>
+      <p><strong>Teléfono:</strong> (011) 4581-1984</p>
+      <p><strong>Email:</strong> reservas@cantinachichilo.com.ar</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Cantina Chichilo. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+</body>
+</html>
